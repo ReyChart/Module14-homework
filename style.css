@@ -1,0 +1,63 @@
+.title {
+    text-align: center;
+    color: #00b43f;
+}
+
+.title_task {
+    color: #696969;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.button {
+    width: 120px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+    padding: 8px 8px;
+    cursor: pointer;
+    background-color: #0075b4;
+    border-radius: 4px;
+    border: none;
+    transition: background-color .3s ease;
+}
+
+.button:hover {
+    background-color: #065683;
+}
+
+.input {
+    height: 25px;
+    width: 175px;
+}
+
+.input__task-four_width,
+.input__task-four_height {
+    width: 210px;
+}
+
+.input__task-five_page,
+.input__task-five_limit {
+    width: 195px;
+}
+
+.result {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+}
+
+.cards {
+    width: 200px;
+    margin: 0px 20px 20px;
+}
+
+.cards__img-one {
+    display: block;
+    width: 200px;
+    height: 150px;
+}
